@@ -8,7 +8,7 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 from db_operations import get_user_full_name,get_score
-from api_operations import get_translation,call_youglish_api,generate_chatbot_response
+from api_operations import get_translation,call_youglish_api
 
 
 
@@ -64,10 +64,10 @@ def get_response(msg):
                     vocabulary_suggest = " ".join(sentence[2:]) 
                     response = call_youglish_api(vocabulary_suggest)
                     return f'Click <a href="{response}" target="_blank"> {vocabulary_suggest}</a> to get suggest video'
-                if tag == "chatGPTprompt":
-                    req = " ".join(sentence[2:]) 
-                    response = generate_chatbot_response(req)
-                    return f'GPT:{response}'
+                # if tag == "chatGPTprompt":
+                #     req = " ".join(sentence[2:]) 
+                #     response = generate_chatbot_response(req)
+                #     return f'GPT:{response}'
                 return random.choice(intent['responses'])
     return "Sorry, I'm not able to understand you .."
 if __name__ == "__main__":

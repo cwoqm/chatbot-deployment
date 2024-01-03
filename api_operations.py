@@ -1,5 +1,5 @@
 #api_operations.py
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 import requests
 
 # Your existing code for get_response function
@@ -34,31 +34,31 @@ def get_translation(word):
 #     except requests.exceptions.RequestException as e:
 #         print(f"Error making YouGlish API request: {e}")
 
-import openai
+# import openai
 
 def call_youglish_api(query):
     link = f'https://youglish.com/pronounce/{query}/english/'
     return link
 
-openai.api_key = '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'
+# openai.api_key = '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'
 
-def generate_chatbot_response(user_input):
-    # Create a chat completion request
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {
-                "role": "system",
-                "content": "You will be provided with statements, and your task is to convert them to standard English."
-            },
-            {
-                "role": "user",
-                "content": user_input
-            }
-        ],
-        temperature=0.7,
-        max_tokens=64,
-        top_p=1
-    )
-    chatbot_response = response['choices'][0]['message']['content'].strip()
-    return chatbot_response
+# def generate_chatbot_response(user_input):
+#     # Create a chat completion request
+#     response = openai.ChatCompletion.create(
+#         model="gpt-3.5-turbo",
+#         messages=[
+#             {
+#                 "role": "system",
+#                 "content": "You will be provided with statements, and your task is to convert them to standard English."
+#             },
+#             {
+#                 "role": "user",
+#                 "content": user_input
+#             }
+#         ],
+#         temperature=0.7,
+#         max_tokens=64,
+#         top_p=1
+#     )
+#     chatbot_response = response['choices'][0]['message']['content'].strip()
+#     return chatbot_response
