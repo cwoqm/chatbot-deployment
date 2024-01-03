@@ -1,0 +1,11 @@
+$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ cd chatbot-deployment
+$ python3 -m venv venv
+$ . venv/bin/activate
+
+Modify intents.json with different intents and responses for your Chatbot
+$ (venv) python train.py
+
+$ (venv) python chat.py
+
+ python app.py

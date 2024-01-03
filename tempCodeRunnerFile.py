@@ -1,0 +1,1 @@
+/get_fullname/<userName>"

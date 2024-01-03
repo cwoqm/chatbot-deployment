@@ -1,0 +1,271 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "What's up?", "How's it going?"],
+        "responses": ["I'm good, thank you!", "I'm doing well, how about you?", "Everything is great!"]
+      },
+      {
+        "tag": "tell_joke",
+        "patterns": ["Tell me a joke", "Give me a joke", "Joke, please"],
+        "responses": [ "Why did the chicken cross the road? To get to the other side!"]
+      },
+      {
+        "tag": "whats_your_name",
+        "patterns": ["What's your name?", "Who are you?", "Your name?"],
+        "responses": ["I'm your friendly chatbot!", "You can call me Sam."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "Weather forecast"],
+        "responses": ["I'm sorry, I don't have real-time weather information. You can check a weather website for the latest updates."]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["You're great", "Nice job", "You're awesome"],
+        "responses": ["Thank you! I'm here to assist you.", "I appreciate the kind words!"]
+      },
+      {
+        "tag": "tell_about_yourself",
+        "patterns": ["Tell me about yourself", "Who created you?", "What's your story?"],
+        "responses": ["I am a chatbot designed to assist learning English and provide information."]
+      },
+      {
+        "tag": "current_events",
+        "patterns": ["What's happening in the world?", "Tell me the latest news", "Current events"],
+        "responses": ["I'm sorry, I don't have real-time news updates. You can check a news website for the latest information."]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Tell me what you like"],
+        "responses": ["I don't have hobbies as humans do, but I enjoy helping you with your questions!"]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["Tell me about the latest in technology", "What's new in tech?", "Technology trends"],
+        "responses": [
+          "Technology is constantly evolving! Some current trends include artificial intelligence, blockchain, and the development of 5G networks.",
+          "Innovations like augmented reality and quantum computing are shaping the future of technology.",
+          "Keep an eye on tech giants like Apple, Google, and Tesla for the latest breakthroughs."
+        ]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["Any recommendations for travel destinations?", "Tell me about popular travel spots", "Best places to visit"],
+        "responses": [
+          "There are so many amazing places to explore! Some popular travel destinations include Paris, Tokyo, and the Grand Canyon. Where would you like to go?",
+          "Consider visiting cultural gems like Rome, Kyoto, or Machu Picchu for a unique travel experience.",
+          "Whether you enjoy beaches, mountains, or historical sites, the world offers diverse and breathtaking destinations."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": ["What's your favorite music?", "Tell me about different music genres", "Recommend some songs"],
+        "responses": [
+          "I don't have personal preferences, but I can suggest various music genres like pop, rock, jazz, and electronic. What type of music are you in the mood for?",
+          "Explore new sounds by checking out genres such as indie, folk, or electronic dance music (EDM).",
+          "Discover hidden gems by exploring playlists on music streaming platforms like Spotify or Apple Music."
+        ]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Any good movies out lately?", "Recommend a movie to watch", "What's your favorite film?"],
+        "responses": [
+          "I don't watch movies, but some recent releases include blockbuster hits and thought-provoking dramas. What genre are you interested in?",
+          "Explore a mix of genres, from action-packed superhero movies to critically acclaimed documentaries.",
+          "Consider watching classic films to appreciate the rich history and evolution of cinema."
+        ]
+      },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "guide",
+      "patterns": ["How can i use?", "How many function do you have?", "What are you for", "What could you do?"],
+      "responses": ["I can suggest video, chatting, Most of that is Translate Eng-Vi"]
+    },
+    {
+      "tag": "practice_speaking",
+      "patterns": ["Practice English speaking", "Improve speaking skills", "Speaking practice"],
+      "responses": ["I'm sorry, I don't have audio or voice chat. You can check a news website.",
+      "While I can't provide voice chat, I can help you practice speaking by providing written prompts. Would you like to try?",
+      "Improving speaking skills is important! Consider joining language exchange programs or using language learning apps with speaking features."]
+    },
+    {
+      "tag": "technology_vocabulary",
+      "patterns": ["I need a list of vocabulary for computer technology", "Give me computer technology terms", "List of technology words"],
+      "responses": [
+        "Sure, here are 10 computer technology terms:\n- Algorithm"
+      ]
+    },
+    {
+      "tag": "language_learning_apps",
+      "patterns": ["Recommend language learning apps", "Best language apps", "Language learning tools"],
+      "responses": ["I'm sorry, I don't have your needing information. You can check a news website for the more information."]
+    },
+    {
+      "tag": "english_exams",
+      "patterns": ["Preparation for English exams"],
+      "responses": ["Preparing for exams is important. Which exam are you getting ready for, and do you have any specific questions or topics you'd like to cover?"]
+    },
+    {
+      "tag": "toefl_exams",
+      "patterns": [
+        "TOEFL preparation",
+        "How to prepare for TOEFL",
+        "Tips for TOEFL",
+        "Scoring in TOEFL"
+      ],
+      "responses": [
+        "Certainly! To excel in TOEFL, focus on improving your skills in reading, listening, speaking, and writing. Practice regularly with sample tests to get familiar with the format. Additionally, work on time management during the exam. If you have specific questions or need guidance on a particular aspect, feel free to ask! Check out this [link](https://example.com/toefl-resources) for additional TOEFL resources.",
+        "TOEFL preparation involves honing your English language skills in various areas. Allocate time for daily practice, especially in sections where you feel less confident. Utilize online resources, study guides, and practice tests to assess your progress. Remember, consistency is key to success. Is there a specific area you'd like more information on? You might find this [link](https://example.com/toefl-tips) helpful.",
+        "Absolutely! For effective TOEFL preparation, create a study schedule that covers all sections of the test. Practice under timed conditions to improve your time management. Focus on improving your grammar, vocabulary, and fluency for the speaking and writing sections. If you have any specific concerns or questions, let me know! Explore this [link](https://example.com/toefl-study-guide) for a comprehensive TOEFL study guide."
+      ]
+    },
+    {
+      "tag": "ielts_exams",
+      "patterns": [
+        "IELTS preparation",
+        "How to prepare for IELTS",
+        "Tips for IELTS",
+        "Scoring in IELTS"
+      ],
+      "responses": [
+        "Certainly! To excel in IELTS, focus on improving your skills in reading, writing, listening, and speaking. Practice regularly with sample tests to get familiar with the format. Additionally, work on expanding your vocabulary and understanding complex sentence structures. If you have specific questions or need guidance on a particular aspect, feel free to ask! Check out this [link](https://example.com/ielts-resources) for additional IELTS resources.",
+        "IELTS preparation involves honing your English language skills. Allocate time for daily practice, especially in areas where you feel less confident. Utilize online resources, study guides, and practice tests to assess your progress. Remember, consistency is key to success. Is there a specific area you'd like more information on? You might find this [link](https://example.com/ielts-tips) helpful.",
+        "Absolutely! For effective IELTS preparation, create a study schedule that covers all sections of the test. Practice under timed conditions to improve your time management. Focus on improving your grammar, vocabulary, and pronunciation for the speaking section. If you have any specific concerns or questions, let me know! Explore this [link](https://example.com/ielts-study-guide) for a comprehensive IELTS study guide."
+      ]
+    },
+    {
+      "tag": "toeic_exams",
+      "patterns": [
+        "TOEIC preparation",
+        "How to prepare for TOEIC",
+        "Tips for TOEIC",
+        "Scoring in TOEIC"
+      ],
+      "responses": [
+        "Certainly! To succeed in TOEIC, focus on enhancing your listening and reading skills. Practice with authentic TOEIC materials to familiarize yourself with the test format. Additionally, work on expanding your business English vocabulary. If you have specific questions or need guidance on a particular aspect, feel free to ask! Check out this [link](https://example.com/toeic-resources) for additional TOEIC resources.",
+        "TOEIC preparation involves consistent practice in listening and reading comprehension. Utilize official TOEIC practice tests and study guides to assess your progress. Remember to pay attention to detail, especially in the listening section. Is there a specific area you'd like more information on? You might find this [link](https://example.com/toeic-tips) helpful.",
+        "Absolutely! For effective TOEIC preparation, create a study plan that covers both listening and reading sections. Familiarize yourself with common business-related vocabulary. Practice with timed mock exams to improve your pacing. If you have any specific concerns or questions, let me know! Explore this [link](https://example.com/toeic-study-guide) for a comprehensive TOEIC study guide."
+      ]
+    },
+    {
+      "tag": "feedback_request",
+      "patterns": ["Give me feedback on my English", "Evaluate my English", "How am I doing in English?"],
+      "responses": ["Absolutely! I'd be happy to provide feedback on your English. Could you share a piece of writing or a spoken sentence for evaluation?"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "askName",
+      "patterns": [
+        "What is my name?",
+        "Can you tell me my name?",
+        "Do you know my name?",
+        "Say my name!!"
+      ],
+      "responses": [
+        "Your name is [username].",
+        "Certainly! Your name is [username].",
+        "Sure thing! Your name is [username]."
+      ]
+    },
+    {
+      "tag": "chatGPTprompt",
+      "patterns": [
+        "ChatGPT: [input]",
+        "GPT: [input]"
+      ],
+      "responses": [
+      ]
+    },
+    {
+      "tag": "translation",
+      "patterns": [
+        "What [vocabulary] means?",
+        "Translate: [vocabulary]",
+        "Trans: [vocabulary]",
+        "Translate it:",
+        "TRANSLATE: [vocabulary]"
+      ],
+      "responses": [
+      ]
+    },
+    {
+      "tag": "askScore",
+      "patterns": [
+        "What is my score?",
+        "Can you tell me my latest score?",
+        "My latest score?"
+      ],
+      "responses": [
+      ]
+    },
+    {
+      "tag": "suggestVideo",
+      "patterns": [
+        "Suggest: [vocabulary]",
+        "Video: [vocabulary]",
+        "Suggest:",
+        "Video:"
+
+      ],
+      "responses": [
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "Inspire me",
+        "I need motivation",
+        "Give me a motivational quote",
+        "Motivate me, please",
+        "I could use some inspiration"
+      ],
+      "responses": [
+        "Believe in yourself, for you are stronger than you think.",
+        "The only limit to your success is the one you place on yourself.",
+        "Embrace the journey, and let the struggles fuel your determination.",
+        "You have the power to turn your dreams into reality. Start now.",
+        "Your potential is limitless. Don't be afraid to push your boundaries."
+      ]
+    }
+  ]
+}
